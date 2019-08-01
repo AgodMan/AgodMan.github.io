@@ -1801,6 +1801,16 @@ img {
   border-top: 0.1rem #e6e6e6 solid;
   padding: 3rem 0;
 }
+.site-counter {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.site-counter:before {
+  content: "\f127";
+  font-family: feathericon;
+  margin-right: 0.2rem;
+  opacity: 0.5;
+}
 .float-left {
   float: left !important;
 }
